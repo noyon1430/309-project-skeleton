@@ -10,6 +10,22 @@ var express = require ('express');
  * Main application entry file.
  * Please note that the order of loading is important.
  */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 var uri = process.env.MONGOLAB_URI || config.db.uri;
 mongoose.Promise = require('q').Promise;
